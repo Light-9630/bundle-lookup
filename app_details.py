@@ -8,7 +8,7 @@ from google_play_scraper import app as play_scraper
 import concurrent.futures
 
 # Configure Layout Framework
-st.set_page_config(page_title="CTV App Store Resolver", layout="wide")
+st.set_page_config(page_title="App Store lookup", layout="wide")
 
 class UniversalStoreResolver:
     def __init__(self):
